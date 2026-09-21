@@ -24,28 +24,45 @@ struct PromptBuilder {
     maskToken = "[MASK]"
   }
 
-  func prepare(id: String, state: String, question: LayaQuestion) throws -> PreparedQuestion {
+  func makePrefix(for question: LayaQuestion) throws -> PreparedPromptPrefix {
     let definition = try QuestionDefinition(question)
-    var (tokens, markers) = makePrefix(definition)
-    let room = max(0, maxLength - tokens.count - 1)
-    let cleanState = state.replacingOccurrences(of: maskToken, with: " ")
-    tokens += tokenizer.encode(text: cleanState, addSpecialTokens: false).prefix(room)
-    tokens.append(separatorTokenID)
-    guard markers.count == definition.options.count else {
-      throw LayaError.invalidQuestion("Question '\(id)' has too many options for the token budget.")
-    }
-    markers = markers.filter { $0 < maxLength }
-    return PreparedQuestion(
-      id: id,
+    let (tokens, markers) = tokenizePrefix(definition)
+    return PreparedPromptPrefix(
       type: definition.type,
-      tokenIDs: Array(tokens.prefix(maxLength)),
+      tokens: tokens,
       markers: markers,
       labels: definition.labels,
-      scoreLevels: definition.scoreLevels
+      scoreLevels: definition.scoreLevels,
+      optionCount: definition.options.count
     )
   }
 
-  private func makePrefix(_ question: QuestionDefinition) -> ([Int], [Int]) {
+  func tokenizeState(_ state: String) -> [Int] {
+    let cleanState = state.replacingOccurrences(of: maskToken, with: " ")
+    return tokenizer.encode(text: cleanState, addSpecialTokens: false)
+  }
+
+  func prepare(id: String, stateTokens: [Int], prefix: PreparedPromptPrefix) throws
+    -> PreparedQuestion
+  {
+    var tokens = prefix.tokens
+    let room = max(0, maxLength - tokens.count - 1)
+    tokens += stateTokens.prefix(room)
+    tokens.append(separatorTokenID)
+    guard prefix.markers.count == prefix.optionCount else {
+      throw LayaError.invalidQuestion("Question '\(id)' has too many options for the token budget.")
+    }
+    return PreparedQuestion(
+      id: id,
+      type: prefix.type,
+      tokenIDs: Array(tokens.prefix(maxLength)),
+      markers: prefix.markers.filter { $0 < maxLength },
+      labels: prefix.labels,
+      scoreLevels: prefix.scoreLevels
+    )
+  }
+
+  private func tokenizePrefix(_ question: QuestionDefinition) -> ([Int], [Int]) {
     let cleanInstructions = question.instructions.replacingOccurrences(of: maskToken, with: " ")
     var heading = tokenizer.encode(
       text: "\(question.type.rawValue) question: \(cleanInstructions)",
@@ -75,6 +92,15 @@ struct PromptBuilder {
     tokens.append(separatorTokenID)
     return (tokens, markers)
   }
+}
+
+struct PreparedPromptPrefix: Sendable {
+  let type: LayaQuestionType
+  let tokens: [Int]
+  let markers: [Int]
+  let labels: [String]
+  let scoreLevels: [String]
+  let optionCount: Int
 }
 
 private struct QuestionDefinition {

@@ -10,14 +10,14 @@ public struct LayaRequest: Sendable {
   }
 }
 
-public enum LayaQuestion: Sendable {
+public enum LayaQuestion: Hashable, Sendable {
   case choice(instructions: String, options: [LayaOption])
   case score(instructions: String, levels: [String])
   case boolean(
     instructions: String, falseDescription: String? = nil, trueDescription: String? = nil)
 }
 
-public struct LayaOption: Sendable, Equatable {
+public struct LayaOption: Hashable, Sendable {
   public let label: String
   public let description: String?
 

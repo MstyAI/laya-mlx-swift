@@ -67,7 +67,7 @@ Laya supports three question types:
 
 ## Performance
 
-On an M3 Max, one request with three decisions takes **32.4 ms p50** and **33.4 ms p95**. The same benchmark takes 27.1 ms with Python MLX and 397 ms with our ONNX port. Accuracy matches both Laya ports exactly.
+On an M3 Max, one request with three decisions takes **27.1 ms p50** and **28.2 ms p95**. Python MLX takes 27.0 ms and our ONNX port takes 397 ms on the same benchmark. Accuracy matches both Laya ports exactly.
 
 [See the benchmark method and raw results](BENCHMARKS.md).
 

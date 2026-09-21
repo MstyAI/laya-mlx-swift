@@ -4,12 +4,12 @@ These numbers measure one request containing three decisions: department routing
 
 | Runtime | Question accuracy | Exact cases | P50 | P95 |
 |---|---:|---:|---:|---:|
-| Laya MLX Swift | 74% | 36% | 32.4 ms | 33.4 ms |
-| Laya MLX Python | 74% | 36% | 27.1 ms | 27.9 ms |
+| Laya MLX Swift | 74% | 36% | 27.1 ms | 28.2 ms |
+| Laya MLX Python | 74% | 36% | 27.0 ms | 28.0 ms |
 | Laya ONNX | 74% | 36% | 397 ms | 420 ms |
 | Jev 1.13.0 | 96% | 88% | 202 ms | 312 ms |
 
-The native Swift port is about 19% slower than Python MLX and about 12 times faster than the ONNX port on this workload. All three Laya runtimes produced the same accuracy. Jev uses a different hosted model, so its accuracy and network latency are useful context rather than a direct runtime comparison.
+The native Swift and Python MLX ports have effectively the same latency. Swift is about 15 times faster than the ONNX port on this workload. All three Laya runtimes produced the same accuracy. Jev uses a different hosted model, so its accuracy and network latency are useful context rather than a direct runtime comparison.
 
 <details>
 <summary>Method</summary>
@@ -18,7 +18,7 @@ The native Swift port is about 19% slower than Python MLX and about 12 times fas
 - Model: `aac6fef/laya-mlx` at `20aed815fc6acde75733882e7ec0e3f28aeb9717`
 - Dataset: 50 synthetic support requests, with three labeled decisions per request
 - Timing: five measured passes after one warmup request; model loading excluded
-- Swift and Python: release/optimized execution using MLX and FP16 weights
+- Swift and Python: release/optimized execution using MLX, FP16 weights, and the same 128-entry tokenized-prefix cache
 - ONNX: Core ML execution provider with CPU fallback
 - Jev: hosted API latency including the network request
 

@@ -3,12 +3,12 @@
   "correctQuestions": 111,
   "exactCaseAccuracy": 0.36,
   "exactCases": 18,
-  "latencyMeanMilliseconds": 27.2463800101541,
-  "latencyP50Milliseconds": 27.083834051154554,
-  "latencyP95Milliseconds": 27.864665957167745,
+  "latencyMeanMilliseconds": 27.129039539955556,
+  "latencyP50Milliseconds": 27.003334020264447,
+  "latencyP95Milliseconds": 28.024917002767324,
   "machine": "Apple M3 Max, 16-core CPU, 40-core GPU, 128 GB memory",
   "measuredRuns": 5,
-  "modelLoadMilliseconds": 179.01070800144225,
+  "modelLoadMilliseconds": 81.32770902011544,
   "modelRevision": "20aed815fc6acde75733882e7ec0e3f28aeb9717",
   "platform": "macOS/arm64",
   "questionAccuracy": 0.74,
@@ -17,5 +17,6 @@
   "stableRepeats": 200,
   "totalQuestions": 150,
   "totalRepeats": 200,
-  "warmupMilliseconds": 57.016334030777216
+  "warmupMilliseconds": 49.0408749319613,
+  "prefixCache": true
 }

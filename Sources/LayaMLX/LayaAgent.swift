@@ -9,6 +9,7 @@ public actor LayaAgent {
   private let promptBuilder: PromptBuilder
   private let padTokenID: Int
   private let batchSize: Int
+  private var promptCache = PromptPrefixCache()
 
   public init(modelDirectory: URL, batchSize: Int = 16) async throws {
     guard batchSize > 0 else { throw LayaError.invalidModel("Batch size must be positive.") }
@@ -43,9 +44,15 @@ public actor LayaAgent {
   }
 
   public func predict(_ request: LayaRequest) throws -> LayaResult {
-    let prepared = try request.questions.map { id, question in
-      try promptBuilder.prepare(id: id, state: request.state, question: question)
-    }.sorted { $0.id < $1.id }
+    var prepared = [PreparedQuestion]()
+    let stateTokens = promptBuilder.tokenizeState(request.state)
+    for (id, question) in request.questions {
+      let prefix = try promptCache.value(for: question) {
+        try promptBuilder.makePrefix(for: question)
+      }
+      prepared.append(try promptBuilder.prepare(id: id, stateTokens: stateTokens, prefix: prefix))
+    }
+    prepared.sort { $0.id < $1.id }
     guard !prepared.isEmpty else {
       throw LayaError.invalidQuestion("At least one question is required.")
     }

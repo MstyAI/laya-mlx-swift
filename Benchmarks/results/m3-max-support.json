@@ -3,13 +3,13 @@
   "correctQuestions" : 111,
   "exactCaseAccuracy" : 0.36,
   "exactCases" : 18,
-  "generatedAt" : "2026-09-21T21:28:34Z",
-  "latencyMeanMilliseconds" : 32.42025134400003,
-  "latencyP50Milliseconds" : 32.372333,
-  "latencyP95Milliseconds" : 33.446375,
+  "generatedAt" : "2026-09-21T21:49:07Z",
+  "latencyMeanMilliseconds" : 27.193796880000022,
+  "latencyP50Milliseconds" : 27.0605,
+  "latencyP95Milliseconds" : 28.1835,
   "machine" : "Apple M3 Max, 16-core CPU, 40-core GPU, 128 GB memory",
   "measuredRuns" : 5,
-  "modelLoadMilliseconds" : 205.044834,
+  "modelLoadMilliseconds" : 204.459709,
   "modelRevision" : "20aed815fc6acde75733882e7ec0e3f28aeb9717",
   "platform" : "macOS\/arm64",
   "questionAccuracy" : 0.74,
@@ -18,7 +18,7 @@
   "samples" : [
     {
       "id" : "billing-01",
-      "milliseconds" : 33.249542,
+      "milliseconds" : 27.119834,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -27,7 +27,7 @@
     },
     {
       "id" : "billing-02",
-      "milliseconds" : 33.866292,
+      "milliseconds" : 28.349375,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -36,7 +36,7 @@
     },
     {
       "id" : "billing-03",
-      "milliseconds" : 32.265584,
+      "milliseconds" : 27.525875,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -45,7 +45,7 @@
     },
     {
       "id" : "billing-04",
-      "milliseconds" : 31.787875,
+      "milliseconds" : 27.850833,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -54,7 +54,7 @@
     },
     {
       "id" : "billing-05",
-      "milliseconds" : 32.345875,
+      "milliseconds" : 28.151167,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -63,7 +63,7 @@
     },
     {
       "id" : "billing-06",
-      "milliseconds" : 33.647166,
+      "milliseconds" : 28.668875,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -72,7 +72,7 @@
     },
     {
       "id" : "billing-07",
-      "milliseconds" : 32.378,
+      "milliseconds" : 27.464083,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -81,7 +81,7 @@
     },
     {
       "id" : "billing-08",
-      "milliseconds" : 32.167625,
+      "milliseconds" : 28.20725,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -90,7 +90,7 @@
     },
     {
       "id" : "billing-09",
-      "milliseconds" : 32.302333,
+      "milliseconds" : 28.082584,
       "prediction" : {
         "department" : "sales",
         "refund" : true,
@@ -99,7 +99,7 @@
     },
     {
       "id" : "billing-10",
-      "milliseconds" : 32.867167,
+      "milliseconds" : 28.195875,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -108,7 +108,7 @@
     },
     {
       "id" : "technical-01",
-      "milliseconds" : 32.417,
+      "milliseconds" : 27.927625,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -117,7 +117,7 @@
     },
     {
       "id" : "technical-02",
-      "milliseconds" : 32.686125,
+      "milliseconds" : 27.790125,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -126,7 +126,7 @@
     },
     {
       "id" : "technical-03",
-      "milliseconds" : 32.1695,
+      "milliseconds" : 27.137542,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -135,7 +135,7 @@
     },
     {
       "id" : "technical-04",
-      "milliseconds" : 32.764042,
+      "milliseconds" : 28.191667,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -144,7 +144,7 @@
     },
     {
       "id" : "technical-05",
-      "milliseconds" : 32.518208,
+      "milliseconds" : 27.303208,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -153,7 +153,7 @@
     },
     {
       "id" : "technical-06",
-      "milliseconds" : 32.568,
+      "milliseconds" : 28.215916,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -162,7 +162,7 @@
     },
     {
       "id" : "technical-07",
-      "milliseconds" : 32.034958,
+      "milliseconds" : 27.95825,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -171,7 +171,7 @@
     },
     {
       "id" : "technical-08",
-      "milliseconds" : 32.034708,
+      "milliseconds" : 27.555875,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -180,7 +180,7 @@
     },
     {
       "id" : "technical-09",
-      "milliseconds" : 32.958958,
+      "milliseconds" : 28.021,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -189,7 +189,7 @@
     },
     {
       "id" : "technical-10",
-      "milliseconds" : 32.74525,
+      "milliseconds" : 27.405708,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -198,7 +198,7 @@
     },
     {
       "id" : "sales-01",
-      "milliseconds" : 32.045125,
+      "milliseconds" : 27.093333,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -207,7 +207,7 @@
     },
     {
       "id" : "sales-02",
-      "milliseconds" : 32.260167,
+      "milliseconds" : 27.028583,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -216,7 +216,7 @@
     },
     {
       "id" : "sales-03",
-      "milliseconds" : 32.669042,
+      "milliseconds" : 27.431584,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -225,7 +225,7 @@
     },
     {
       "id" : "sales-04",
-      "milliseconds" : 32.864,
+      "milliseconds" : 26.80525,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -234,7 +234,7 @@
     },
     {
       "id" : "sales-05",
-      "milliseconds" : 32.205583,
+      "milliseconds" : 26.980291,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -243,7 +243,7 @@
     },
     {
       "id" : "sales-06",
-      "milliseconds" : 31.695958,
+      "milliseconds" : 27.113959,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -252,7 +252,7 @@
     },
     {
       "id" : "sales-07",
-      "milliseconds" : 32.321417,
+      "milliseconds" : 28.0335,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -261,7 +261,7 @@
     },
     {
       "id" : "sales-08",
-      "milliseconds" : 32.569583,
+      "milliseconds" : 27.905542,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -270,7 +270,7 @@
     },
     {
       "id" : "sales-09",
-      "milliseconds" : 32.133416,
+      "milliseconds" : 27.182042,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -279,7 +279,7 @@
     },
     {
       "id" : "sales-10",
-      "milliseconds" : 32.324208,
+      "milliseconds" : 27.10525,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -288,7 +288,7 @@
     },
     {
       "id" : "account-01",
-      "milliseconds" : 32.768875,
+      "milliseconds" : 27.0255,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -297,7 +297,7 @@
     },
     {
       "id" : "account-02",
-      "milliseconds" : 32.732167,
+      "milliseconds" : 27.596959,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -306,7 +306,7 @@
     },
     {
       "id" : "account-03",
-      "milliseconds" : 32.31725,
+      "milliseconds" : 27.156708,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -315,7 +315,7 @@
     },
     {
       "id" : "account-04",
-      "milliseconds" : 32.039875,
+      "milliseconds" : 27.200625,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -324,7 +324,7 @@
     },
     {
       "id" : "account-05",
-      "milliseconds" : 32.803542,
+      "milliseconds" : 28.268417,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -333,7 +333,7 @@
     },
     {
       "id" : "account-06",
-      "milliseconds" : 32.366209,
+      "milliseconds" : 27.420833,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -342,7 +342,7 @@
     },
     {
       "id" : "account-07",
-      "milliseconds" : 32.438291,
+      "milliseconds" : 27.22325,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -351,7 +351,7 @@
     },
     {
       "id" : "account-08",
-      "milliseconds" : 32.611375,
+      "milliseconds" : 27.497875,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -360,7 +360,7 @@
     },
     {
       "id" : "account-09",
-      "milliseconds" : 32.709083,
+      "milliseconds" : 26.990667,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -369,7 +369,7 @@
     },
     {
       "id" : "account-10",
-      "milliseconds" : 31.42875,
+      "milliseconds" : 26.712209,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -378,7 +378,7 @@
     },
     {
       "id" : "shipping-01",
-      "milliseconds" : 32.441958,
+      "milliseconds" : 27.064792,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -387,7 +387,7 @@
     },
     {
       "id" : "shipping-02",
-      "milliseconds" : 32.447291,
+      "milliseconds" : 26.724083,
       "prediction" : {
         "department" : "shipping",
         "refund" : true,
@@ -396,7 +396,7 @@
     },
     {
       "id" : "shipping-03",
-      "milliseconds" : 31.793792,
+      "milliseconds" : 26.994875,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -405,7 +405,7 @@
     },
     {
       "id" : "shipping-04",
-      "milliseconds" : 31.679667,
+      "milliseconds" : 26.83875,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -414,7 +414,7 @@
     },
     {
       "id" : "shipping-05",
-      "milliseconds" : 32.617916,
+      "milliseconds" : 26.840333,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -423,7 +423,7 @@
     },
     {
       "id" : "shipping-06",
-      "milliseconds" : 32.029792,
+      "milliseconds" : 26.920791,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -432,7 +432,7 @@
     },
     {
       "id" : "shipping-07",
-      "milliseconds" : 32.040167,
+      "milliseconds" : 26.852875,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -441,7 +441,7 @@
     },
     {
       "id" : "shipping-08",
-      "milliseconds" : 31.926833,
+      "milliseconds" : 26.845417,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -450,7 +450,7 @@
     },
     {
       "id" : "shipping-09",
-      "milliseconds" : 32.191917,
+      "milliseconds" : 26.892708,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -459,7 +459,7 @@
     },
     {
       "id" : "shipping-10",
-      "milliseconds" : 31.714666,
+      "milliseconds" : 26.857375,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -468,7 +468,7 @@
     },
     {
       "id" : "billing-01",
-      "milliseconds" : 32.515458,
+      "milliseconds" : 27.007333,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -477,7 +477,7 @@
     },
     {
       "id" : "billing-02",
-      "milliseconds" : 32.592625,
+      "milliseconds" : 27.077375,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -486,7 +486,7 @@
     },
     {
       "id" : "billing-03",
-      "milliseconds" : 31.450291,
+      "milliseconds" : 26.92825,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -495,7 +495,7 @@
     },
     {
       "id" : "billing-04",
-      "milliseconds" : 32.032875,
+      "milliseconds" : 27.419791,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -504,7 +504,7 @@
     },
     {
       "id" : "billing-05",
-      "milliseconds" : 32.228708,
+      "milliseconds" : 26.663875,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -513,7 +513,7 @@
     },
     {
       "id" : "billing-06",
-      "milliseconds" : 32.736584,
+      "milliseconds" : 27.475292,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -522,7 +522,7 @@
     },
     {
       "id" : "billing-07",
-      "milliseconds" : 31.950084,
+      "milliseconds" : 27.005959,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -531,7 +531,7 @@
     },
     {
       "id" : "billing-08",
-      "milliseconds" : 31.835708,
+      "milliseconds" : 26.892208,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -540,7 +540,7 @@
     },
     {
       "id" : "billing-09",
-      "milliseconds" : 32.944708,
+      "milliseconds" : 27.003542,
       "prediction" : {
         "department" : "sales",
         "refund" : true,
@@ -549,7 +549,7 @@
     },
     {
       "id" : "billing-10",
-      "milliseconds" : 32.563708,
+      "milliseconds" : 27.029833,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -558,7 +558,7 @@
     },
     {
       "id" : "technical-01",
-      "milliseconds" : 31.939292,
+      "milliseconds" : 27.059458,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -567,7 +567,7 @@
     },
     {
       "id" : "technical-02",
-      "milliseconds" : 32.616917,
+      "milliseconds" : 27.525334,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -576,7 +576,7 @@
     },
     {
       "id" : "technical-03",
-      "milliseconds" : 31.993917,
+      "milliseconds" : 26.957667,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -585,7 +585,7 @@
     },
     {
       "id" : "technical-04",
-      "milliseconds" : 32.427125,
+      "milliseconds" : 27.205625,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -594,7 +594,7 @@
     },
     {
       "id" : "technical-05",
-      "milliseconds" : 31.958,
+      "milliseconds" : 27.191916,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -603,7 +603,7 @@
     },
     {
       "id" : "technical-06",
-      "milliseconds" : 31.883667,
+      "milliseconds" : 27.275542,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -612,7 +612,7 @@
     },
     {
       "id" : "technical-07",
-      "milliseconds" : 32.136167,
+      "milliseconds" : 26.8895,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -621,7 +621,7 @@
     },
     {
       "id" : "technical-08",
-      "milliseconds" : 33.4105,
+      "milliseconds" : 27.266417,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -630,7 +630,7 @@
     },
     {
       "id" : "technical-09",
-      "milliseconds" : 32.372333,
+      "milliseconds" : 27.159125,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -639,7 +639,7 @@
     },
     {
       "id" : "technical-10",
-      "milliseconds" : 31.640834,
+      "milliseconds" : 26.795834,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -648,7 +648,7 @@
     },
     {
       "id" : "sales-01",
-      "milliseconds" : 32.794084,
+      "milliseconds" : 26.845708,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -657,7 +657,7 @@
     },
     {
       "id" : "sales-02",
-      "milliseconds" : 33.324458,
+      "milliseconds" : 26.974334,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -666,7 +666,7 @@
     },
     {
       "id" : "sales-03",
-      "milliseconds" : 32.966792,
+      "milliseconds" : 27.14575,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -675,7 +675,7 @@
     },
     {
       "id" : "sales-04",
-      "milliseconds" : 31.350334,
+      "milliseconds" : 26.833833,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -684,7 +684,7 @@
     },
     {
       "id" : "sales-05",
-      "milliseconds" : 31.687,
+      "milliseconds" : 26.719542,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -693,7 +693,7 @@
     },
     {
       "id" : "sales-06",
-      "milliseconds" : 32.065833,
+      "milliseconds" : 26.973208,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -702,7 +702,7 @@
     },
     {
       "id" : "sales-07",
-      "milliseconds" : 32.036917,
+      "milliseconds" : 27.074625,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -711,7 +711,7 @@
     },
     {
       "id" : "sales-08",
-      "milliseconds" : 32.300208,
+      "milliseconds" : 27.115416,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -720,7 +720,7 @@
     },
     {
       "id" : "sales-09",
-      "milliseconds" : 31.713125,
+      "milliseconds" : 27.20225,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -729,7 +729,7 @@
     },
     {
       "id" : "sales-10",
-      "milliseconds" : 32.311459,
+      "milliseconds" : 27.359667,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -738,7 +738,7 @@
     },
     {
       "id" : "account-01",
-      "milliseconds" : 31.978458,
+      "milliseconds" : 27.25925,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -747,7 +747,7 @@
     },
     {
       "id" : "account-02",
-      "milliseconds" : 32.342,
+      "milliseconds" : 27.62675,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -756,7 +756,7 @@
     },
     {
       "id" : "account-03",
-      "milliseconds" : 32.2535,
+      "milliseconds" : 27.012666,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -765,7 +765,7 @@
     },
     {
       "id" : "account-04",
-      "milliseconds" : 31.835167,
+      "milliseconds" : 27.060208,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -774,7 +774,7 @@
     },
     {
       "id" : "account-05",
-      "milliseconds" : 32.401167,
+      "milliseconds" : 27.153375,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -783,7 +783,7 @@
     },
     {
       "id" : "account-06",
-      "milliseconds" : 32.1235,
+      "milliseconds" : 27.25075,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -792,7 +792,7 @@
     },
     {
       "id" : "account-07",
-      "milliseconds" : 31.794708,
+      "milliseconds" : 27.100958,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -801,7 +801,7 @@
     },
     {
       "id" : "account-08",
-      "milliseconds" : 31.984875,
+      "milliseconds" : 27.0605,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -810,7 +810,7 @@
     },
     {
       "id" : "account-09",
-      "milliseconds" : 32.185042,
+      "milliseconds" : 26.892458,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -819,7 +819,7 @@
     },
     {
       "id" : "account-10",
-      "milliseconds" : 31.928208,
+      "milliseconds" : 26.980792,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -828,7 +828,7 @@
     },
     {
       "id" : "shipping-01",
-      "milliseconds" : 31.847333,
+      "milliseconds" : 26.923333,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -837,7 +837,7 @@
     },
     {
       "id" : "shipping-02",
-      "milliseconds" : 32.212625,
+      "milliseconds" : 26.824917,
       "prediction" : {
         "department" : "shipping",
         "refund" : true,
@@ -846,7 +846,7 @@
     },
     {
       "id" : "shipping-03",
-      "milliseconds" : 32.236834,
+      "milliseconds" : 26.963625,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -855,7 +855,7 @@
     },
     {
       "id" : "shipping-04",
-      "milliseconds" : 31.662666,
+      "milliseconds" : 26.983958,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -864,7 +864,7 @@
     },
     {
       "id" : "shipping-05",
-      "milliseconds" : 32.416834,
+      "milliseconds" : 26.87075,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -873,7 +873,7 @@
     },
     {
       "id" : "shipping-06",
-      "milliseconds" : 32.53625,
+      "milliseconds" : 27.176375,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -882,7 +882,7 @@
     },
     {
       "id" : "shipping-07",
-      "milliseconds" : 32.445125,
+      "milliseconds" : 27.188917,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -891,7 +891,7 @@
     },
     {
       "id" : "shipping-08",
-      "milliseconds" : 31.375334,
+      "milliseconds" : 27.347709,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -900,7 +900,7 @@
     },
     {
       "id" : "shipping-09",
-      "milliseconds" : 32.228708,
+      "milliseconds" : 26.933333,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -909,7 +909,7 @@
     },
     {
       "id" : "shipping-10",
-      "milliseconds" : 31.499667,
+      "milliseconds" : 27.259625,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -918,7 +918,7 @@
     },
     {
       "id" : "billing-01",
-      "milliseconds" : 32.217417,
+      "milliseconds" : 27.163625,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -927,7 +927,7 @@
     },
     {
       "id" : "billing-02",
-      "milliseconds" : 33.0735,
+      "milliseconds" : 27.574709,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -936,7 +936,7 @@
     },
     {
       "id" : "billing-03",
-      "milliseconds" : 32.124792,
+      "milliseconds" : 26.982166,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -945,7 +945,7 @@
     },
     {
       "id" : "billing-04",
-      "milliseconds" : 32.262167,
+      "milliseconds" : 27.123917,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -954,7 +954,7 @@
     },
     {
       "id" : "billing-05",
-      "milliseconds" : 32.292958,
+      "milliseconds" : 27.052042,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -963,7 +963,7 @@
     },
     {
       "id" : "billing-06",
-      "milliseconds" : 32.945416,
+      "milliseconds" : 27.277541,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -972,7 +972,7 @@
     },
     {
       "id" : "billing-07",
-      "milliseconds" : 32.718042,
+      "milliseconds" : 27.146041,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -981,7 +981,7 @@
     },
     {
       "id" : "billing-08",
-      "milliseconds" : 32.425375,
+      "milliseconds" : 27.101458,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -990,7 +990,7 @@
     },
     {
       "id" : "billing-09",
-      "milliseconds" : 32.500417,
+      "milliseconds" : 28.1835,
       "prediction" : {
         "department" : "sales",
         "refund" : true,
@@ -999,7 +999,7 @@
     },
     {
       "id" : "billing-10",
-      "milliseconds" : 31.793834,
+      "milliseconds" : 28.0905,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1008,7 +1008,7 @@
     },
     {
       "id" : "technical-01",
-      "milliseconds" : 32.400834,
+      "milliseconds" : 27.887125,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1017,7 +1017,7 @@
     },
     {
       "id" : "technical-02",
-      "milliseconds" : 32.738792,
+      "milliseconds" : 27.864166,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1026,7 +1026,7 @@
     },
     {
       "id" : "technical-03",
-      "milliseconds" : 31.525542,
+      "milliseconds" : 26.670042,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1035,7 +1035,7 @@
     },
     {
       "id" : "technical-04",
-      "milliseconds" : 32.042291,
+      "milliseconds" : 27.1885,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1044,7 +1044,7 @@
     },
     {
       "id" : "technical-05",
-      "milliseconds" : 32.242875,
+      "milliseconds" : 29.103583,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1053,7 +1053,7 @@
     },
     {
       "id" : "technical-06",
-      "milliseconds" : 32.556083,
+      "milliseconds" : 26.810417,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1062,7 +1062,7 @@
     },
     {
       "id" : "technical-07",
-      "milliseconds" : 32.019625,
+      "milliseconds" : 27.07525,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1071,7 +1071,7 @@
     },
     {
       "id" : "technical-08",
-      "milliseconds" : 32.045458,
+      "milliseconds" : 27.024292,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1080,7 +1080,7 @@
     },
     {
       "id" : "technical-09",
-      "milliseconds" : 33.269166,
+      "milliseconds" : 27.402167,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1089,7 +1089,7 @@
     },
     {
       "id" : "technical-10",
-      "milliseconds" : 31.980375,
+      "milliseconds" : 26.742875,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1098,7 +1098,7 @@
     },
     {
       "id" : "sales-01",
-      "milliseconds" : 31.870458,
+      "milliseconds" : 26.995209,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1107,7 +1107,7 @@
     },
     {
       "id" : "sales-02",
-      "milliseconds" : 32.351333,
+      "milliseconds" : 27.4115,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1116,7 +1116,7 @@
     },
     {
       "id" : "sales-03",
-      "milliseconds" : 33.291,
+      "milliseconds" : 27.174167,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1125,7 +1125,7 @@
     },
     {
       "id" : "sales-04",
-      "milliseconds" : 32.139583,
+      "milliseconds" : 26.810875,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1134,7 +1134,7 @@
     },
     {
       "id" : "sales-05",
-      "milliseconds" : 31.607334,
+      "milliseconds" : 27.03725,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1143,7 +1143,7 @@
     },
     {
       "id" : "sales-06",
-      "milliseconds" : 31.611167,
+      "milliseconds" : 26.671292,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1152,7 +1152,7 @@
     },
     {
       "id" : "sales-07",
-      "milliseconds" : 32.772709,
+      "milliseconds" : 26.962,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1161,7 +1161,7 @@
     },
     {
       "id" : "sales-08",
-      "milliseconds" : 33.604,
+      "milliseconds" : 27.088792,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1170,7 +1170,7 @@
     },
     {
       "id" : "sales-09",
-      "milliseconds" : 33.326334,
+      "milliseconds" : 26.962583,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1179,7 +1179,7 @@
     },
     {
       "id" : "sales-10",
-      "milliseconds" : 32.903084,
+      "milliseconds" : 27.174875,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1188,7 +1188,7 @@
     },
     {
       "id" : "account-01",
-      "milliseconds" : 32.40375,
+      "milliseconds" : 27.0315,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1197,7 +1197,7 @@
     },
     {
       "id" : "account-02",
-      "milliseconds" : 31.8365,
+      "milliseconds" : 26.969333,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1206,7 +1206,7 @@
     },
     {
       "id" : "account-03",
-      "milliseconds" : 32.802458,
+      "milliseconds" : 26.847417,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1215,7 +1215,7 @@
     },
     {
       "id" : "account-04",
-      "milliseconds" : 32.434,
+      "milliseconds" : 26.887625,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1224,7 +1224,7 @@
     },
     {
       "id" : "account-05",
-      "milliseconds" : 33.002,
+      "milliseconds" : 27.129209,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1233,7 +1233,7 @@
     },
     {
       "id" : "account-06",
-      "milliseconds" : 32.464125,
+      "milliseconds" : 26.992084,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1242,7 +1242,7 @@
     },
     {
       "id" : "account-07",
-      "milliseconds" : 31.523333,
+      "milliseconds" : 26.953375,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1251,7 +1251,7 @@
     },
     {
       "id" : "account-08",
-      "milliseconds" : 31.954375,
+      "milliseconds" : 27.225542,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1260,7 +1260,7 @@
     },
     {
       "id" : "account-09",
-      "milliseconds" : 32.271542,
+      "milliseconds" : 26.77275,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1269,7 +1269,7 @@
     },
     {
       "id" : "account-10",
-      "milliseconds" : 31.441375,
+      "milliseconds" : 26.6245,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1278,7 +1278,7 @@
     },
     {
       "id" : "shipping-01",
-      "milliseconds" : 32.036167,
+      "milliseconds" : 26.749833,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1287,7 +1287,7 @@
     },
     {
       "id" : "shipping-02",
-      "milliseconds" : 31.766417,
+      "milliseconds" : 26.897291,
       "prediction" : {
         "department" : "shipping",
         "refund" : true,
@@ -1296,7 +1296,7 @@
     },
     {
       "id" : "shipping-03",
-      "milliseconds" : 31.732708,
+      "milliseconds" : 26.837709,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1305,7 +1305,7 @@
     },
     {
       "id" : "shipping-04",
-      "milliseconds" : 32.296542,
+      "milliseconds" : 26.963459,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1314,7 +1314,7 @@
     },
     {
       "id" : "shipping-05",
-      "milliseconds" : 31.57675,
+      "milliseconds" : 26.950208,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1323,7 +1323,7 @@
     },
     {
       "id" : "shipping-06",
-      "milliseconds" : 32.251333,
+      "milliseconds" : 26.958459,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1332,7 +1332,7 @@
     },
     {
       "id" : "shipping-07",
-      "milliseconds" : 32.651458,
+      "milliseconds" : 27.235542,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1341,7 +1341,7 @@
     },
     {
       "id" : "shipping-08",
-      "milliseconds" : 33.11875,
+      "milliseconds" : 26.999542,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1350,7 +1350,7 @@
     },
     {
       "id" : "shipping-09",
-      "milliseconds" : 32.231291,
+      "milliseconds" : 26.931333,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1359,7 +1359,7 @@
     },
     {
       "id" : "shipping-10",
-      "milliseconds" : 31.808208,
+      "milliseconds" : 26.733542,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1368,7 +1368,7 @@
     },
     {
       "id" : "billing-01",
-      "milliseconds" : 32.0225,
+      "milliseconds" : 27.410125,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1377,7 +1377,7 @@
     },
     {
       "id" : "billing-02",
-      "milliseconds" : 32.570458,
+      "milliseconds" : 27.025834,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1386,7 +1386,7 @@
     },
     {
       "id" : "billing-03",
-      "milliseconds" : 31.867833,
+      "milliseconds" : 26.757125,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1395,7 +1395,7 @@
     },
     {
       "id" : "billing-04",
-      "milliseconds" : 32.916375,
+      "milliseconds" : 26.863,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1404,7 +1404,7 @@
     },
     {
       "id" : "billing-05",
-      "milliseconds" : 32.416958,
+      "milliseconds" : 27.129708,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1413,7 +1413,7 @@
     },
     {
       "id" : "billing-06",
-      "milliseconds" : 32.854875,
+      "milliseconds" : 27.165042,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1422,7 +1422,7 @@
     },
     {
       "id" : "billing-07",
-      "milliseconds" : 32.837167,
+      "milliseconds" : 27.354208,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1431,7 +1431,7 @@
     },
     {
       "id" : "billing-08",
-      "milliseconds" : 31.725375,
+      "milliseconds" : 26.733875,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1440,7 +1440,7 @@
     },
     {
       "id" : "billing-09",
-      "milliseconds" : 32.917167,
+      "milliseconds" : 27.13525,
       "prediction" : {
         "department" : "sales",
         "refund" : true,
@@ -1449,7 +1449,7 @@
     },
     {
       "id" : "billing-10",
-      "milliseconds" : 32.449417,
+      "milliseconds" : 27.128042,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1458,7 +1458,7 @@
     },
     {
       "id" : "technical-01",
-      "milliseconds" : 32.473583,
+      "milliseconds" : 27.332541,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1467,7 +1467,7 @@
     },
     {
       "id" : "technical-02",
-      "milliseconds" : 32.684833,
+      "milliseconds" : 27.364209,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1476,7 +1476,7 @@
     },
     {
       "id" : "technical-03",
-      "milliseconds" : 31.654,
+      "milliseconds" : 27.036375,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1485,7 +1485,7 @@
     },
     {
       "id" : "technical-04",
-      "milliseconds" : 32.213,
+      "milliseconds" : 28.218167,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1494,7 +1494,7 @@
     },
     {
       "id" : "technical-05",
-      "milliseconds" : 32.547167,
+      "milliseconds" : 27.977167,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1503,7 +1503,7 @@
     },
     {
       "id" : "technical-06",
-      "milliseconds" : 32.696208,
+      "milliseconds" : 27.101708,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1512,7 +1512,7 @@
     },
     {
       "id" : "technical-07",
-      "milliseconds" : 31.743083,
+      "milliseconds" : 26.802167,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1521,7 +1521,7 @@
     },
     {
       "id" : "technical-08",
-      "milliseconds" : 32.432208,
+      "milliseconds" : 26.949875,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1530,7 +1530,7 @@
     },
     {
       "id" : "technical-09",
-      "milliseconds" : 32.60275,
+      "milliseconds" : 27.086292,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1539,7 +1539,7 @@
     },
     {
       "id" : "technical-10",
-      "milliseconds" : 32.820625,
+      "milliseconds" : 26.786583,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1548,7 +1548,7 @@
     },
     {
       "id" : "sales-01",
-      "milliseconds" : 32.86725,
+      "milliseconds" : 27.000708,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1557,7 +1557,7 @@
     },
     {
       "id" : "sales-02",
-      "milliseconds" : 32.698875,
+      "milliseconds" : 27.126375,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1566,7 +1566,7 @@
     },
     {
       "id" : "sales-03",
-      "milliseconds" : 32.424625,
+      "milliseconds" : 27.014917,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1575,7 +1575,7 @@
     },
     {
       "id" : "sales-04",
-      "milliseconds" : 32.121833,
+      "milliseconds" : 26.837042,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1584,7 +1584,7 @@
     },
     {
       "id" : "sales-05",
-      "milliseconds" : 32.235125,
+      "milliseconds" : 27.073625,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1593,7 +1593,7 @@
     },
     {
       "id" : "sales-06",
-      "milliseconds" : 32.04125,
+      "milliseconds" : 26.924542,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1602,7 +1602,7 @@
     },
     {
       "id" : "sales-07",
-      "milliseconds" : 32.305708,
+      "milliseconds" : 27.020167,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1611,7 +1611,7 @@
     },
     {
       "id" : "sales-08",
-      "milliseconds" : 32.122125,
+      "milliseconds" : 27.031042,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1620,7 +1620,7 @@
     },
     {
       "id" : "sales-09",
-      "milliseconds" : 32.339708,
+      "milliseconds" : 26.934583,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1629,7 +1629,7 @@
     },
     {
       "id" : "sales-10",
-      "milliseconds" : 32.101625,
+      "milliseconds" : 27.026167,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -1638,7 +1638,7 @@
     },
     {
       "id" : "account-01",
-      "milliseconds" : 32.500709,
+      "milliseconds" : 27.033083,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1647,7 +1647,7 @@
     },
     {
       "id" : "account-02",
-      "milliseconds" : 32.50425,
+      "milliseconds" : 26.708042,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1656,7 +1656,7 @@
     },
     {
       "id" : "account-03",
-      "milliseconds" : 32.360583,
+      "milliseconds" : 26.831583,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1665,7 +1665,7 @@
     },
     {
       "id" : "account-04",
-      "milliseconds" : 32.666166,
+      "milliseconds" : 26.77525,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1674,7 +1674,7 @@
     },
     {
       "id" : "account-05",
-      "milliseconds" : 32.549583,
+      "milliseconds" : 27.359666,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1683,7 +1683,7 @@
     },
     {
       "id" : "account-06",
-      "milliseconds" : 32.454583,
+      "milliseconds" : 26.898584,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1692,7 +1692,7 @@
     },
     {
       "id" : "account-07",
-      "milliseconds" : 31.894125,
+      "milliseconds" : 27.054292,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1701,7 +1701,7 @@
     },
     {
       "id" : "account-08",
-      "milliseconds" : 31.876625,
+      "milliseconds" : 27.023083,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1710,7 +1710,7 @@
     },
     {
       "id" : "account-09",
-      "milliseconds" : 31.688917,
+      "milliseconds" : 26.909167,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1719,7 +1719,7 @@
     },
     {
       "id" : "account-10",
-      "milliseconds" : 32.804708,
+      "milliseconds" : 26.756042,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1728,7 +1728,7 @@
     },
     {
       "id" : "shipping-01",
-      "milliseconds" : 32.51425,
+      "milliseconds" : 26.9665,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1737,7 +1737,7 @@
     },
     {
       "id" : "shipping-02",
-      "milliseconds" : 32.076,
+      "milliseconds" : 27.00525,
       "prediction" : {
         "department" : "shipping",
         "refund" : true,
@@ -1746,7 +1746,7 @@
     },
     {
       "id" : "shipping-03",
-      "milliseconds" : 31.485417,
+      "milliseconds" : 26.724042,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1755,7 +1755,7 @@
     },
     {
       "id" : "shipping-04",
-      "milliseconds" : 32.759875,
+      "milliseconds" : 27.070416,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1764,7 +1764,7 @@
     },
     {
       "id" : "shipping-05",
-      "milliseconds" : 31.961875,
+      "milliseconds" : 26.84475,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1773,7 +1773,7 @@
     },
     {
       "id" : "shipping-06",
-      "milliseconds" : 32.125083,
+      "milliseconds" : 26.913291,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1782,7 +1782,7 @@
     },
     {
       "id" : "shipping-07",
-      "milliseconds" : 32.901958,
+      "milliseconds" : 26.90325,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1791,7 +1791,7 @@
     },
     {
       "id" : "shipping-08",
-      "milliseconds" : 32.328667,
+      "milliseconds" : 26.829375,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1800,7 +1800,7 @@
     },
     {
       "id" : "shipping-09",
-      "milliseconds" : 32.081375,
+      "milliseconds" : 26.716625,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1809,7 +1809,7 @@
     },
     {
       "id" : "shipping-10",
-      "milliseconds" : 31.916292,
+      "milliseconds" : 26.708083,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -1818,7 +1818,7 @@
     },
     {
       "id" : "billing-01",
-      "milliseconds" : 31.975792,
+      "milliseconds" : 27.265167,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1827,7 +1827,7 @@
     },
     {
       "id" : "billing-02",
-      "milliseconds" : 32.862,
+      "milliseconds" : 27.199959,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1836,7 +1836,7 @@
     },
     {
       "id" : "billing-03",
-      "milliseconds" : 31.884167,
+      "milliseconds" : 26.707709,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1845,7 +1845,7 @@
     },
     {
       "id" : "billing-04",
-      "milliseconds" : 32.2875,
+      "milliseconds" : 26.937959,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1854,7 +1854,7 @@
     },
     {
       "id" : "billing-05",
-      "milliseconds" : 32.53075,
+      "milliseconds" : 27.209833,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1863,7 +1863,7 @@
     },
     {
       "id" : "billing-06",
-      "milliseconds" : 33.34425,
+      "milliseconds" : 27.144167,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1872,7 +1872,7 @@
     },
     {
       "id" : "billing-07",
-      "milliseconds" : 33.123584,
+      "milliseconds" : 27.882834,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -1881,7 +1881,7 @@
     },
     {
       "id" : "billing-08",
-      "milliseconds" : 32.714375,
+      "milliseconds" : 26.905334,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1890,7 +1890,7 @@
     },
     {
       "id" : "billing-09",
-      "milliseconds" : 33.649083,
+      "milliseconds" : 27.028584,
       "prediction" : {
         "department" : "sales",
         "refund" : true,
@@ -1899,7 +1899,7 @@
     },
     {
       "id" : "billing-10",
-      "milliseconds" : 32.936625,
+      "milliseconds" : 27.188042,
       "prediction" : {
         "department" : "billing",
         "refund" : false,
@@ -1908,7 +1908,7 @@
     },
     {
       "id" : "technical-01",
-      "milliseconds" : 32.613041,
+      "milliseconds" : 26.876125,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1917,7 +1917,7 @@
     },
     {
       "id" : "technical-02",
-      "milliseconds" : 32.73175,
+      "milliseconds" : 27.166958,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1926,7 +1926,7 @@
     },
     {
       "id" : "technical-03",
-      "milliseconds" : 32.471875,
+      "milliseconds" : 26.93875,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1935,7 +1935,7 @@
     },
     {
       "id" : "technical-04",
-      "milliseconds" : 32.35,
+      "milliseconds" : 27.16175,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -1944,7 +1944,7 @@
     },
     {
       "id" : "technical-05",
-      "milliseconds" : 32.594834,
+      "milliseconds" : 26.992125,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1953,7 +1953,7 @@
     },
     {
       "id" : "technical-06",
-      "milliseconds" : 33.022875,
+      "milliseconds" : 27.130209,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1962,7 +1962,7 @@
     },
     {
       "id" : "technical-07",
-      "milliseconds" : 32.637625,
+      "milliseconds" : 26.839791,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1971,7 +1971,7 @@
     },
     {
       "id" : "technical-08",
-      "milliseconds" : 32.908041,
+      "milliseconds" : 26.711083,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1980,7 +1980,7 @@
     },
     {
       "id" : "technical-09",
-      "milliseconds" : 34.286084,
+      "milliseconds" : 27.0115,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1989,7 +1989,7 @@
     },
     {
       "id" : "technical-10",
-      "milliseconds" : 32.690209,
+      "milliseconds" : 26.88975,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -1998,7 +1998,7 @@
     },
     {
       "id" : "sales-01",
-      "milliseconds" : 32.758458,
+      "milliseconds" : 27.070167,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2007,7 +2007,7 @@
     },
     {
       "id" : "sales-02",
-      "milliseconds" : 33.665834,
+      "milliseconds" : 27.041625,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2016,7 +2016,7 @@
     },
     {
       "id" : "sales-03",
-      "milliseconds" : 33.529,
+      "milliseconds" : 27.079709,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2025,7 +2025,7 @@
     },
     {
       "id" : "sales-04",
-      "milliseconds" : 31.753333,
+      "milliseconds" : 26.719667,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2034,7 +2034,7 @@
     },
     {
       "id" : "sales-05",
-      "milliseconds" : 32.324333,
+      "milliseconds" : 26.949083,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2043,7 +2043,7 @@
     },
     {
       "id" : "sales-06",
-      "milliseconds" : 32.14025,
+      "milliseconds" : 26.915917,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2052,7 +2052,7 @@
     },
     {
       "id" : "sales-07",
-      "milliseconds" : 33.654625,
+      "milliseconds" : 27.308292,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2061,7 +2061,7 @@
     },
     {
       "id" : "sales-08",
-      "milliseconds" : 33.446375,
+      "milliseconds" : 26.976667,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2070,7 +2070,7 @@
     },
     {
       "id" : "sales-09",
-      "milliseconds" : 32.604292,
+      "milliseconds" : 27.064959,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2079,7 +2079,7 @@
     },
     {
       "id" : "sales-10",
-      "milliseconds" : 33.45475,
+      "milliseconds" : 27.021875,
       "prediction" : {
         "department" : "sales",
         "refund" : false,
@@ -2088,7 +2088,7 @@
     },
     {
       "id" : "account-01",
-      "milliseconds" : 33.806292,
+      "milliseconds" : 27.235458,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -2097,7 +2097,7 @@
     },
     {
       "id" : "account-02",
-      "milliseconds" : 32.322666,
+      "milliseconds" : 26.916125,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -2106,7 +2106,7 @@
     },
     {
       "id" : "account-03",
-      "milliseconds" : 31.939375,
+      "milliseconds" : 27.105667,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2115,7 +2115,7 @@
     },
     {
       "id" : "account-04",
-      "milliseconds" : 32.653875,
+      "milliseconds" : 26.900708,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2124,7 +2124,7 @@
     },
     {
       "id" : "account-05",
-      "milliseconds" : 33.583208,
+      "milliseconds" : 27.028833,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -2133,7 +2133,7 @@
     },
     {
       "id" : "account-06",
-      "milliseconds" : 33.432041,
+      "milliseconds" : 26.804292,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -2142,7 +2142,7 @@
     },
     {
       "id" : "account-07",
-      "milliseconds" : 32.36925,
+      "milliseconds" : 27.158416,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2151,7 +2151,7 @@
     },
     {
       "id" : "account-08",
-      "milliseconds" : 31.960292,
+      "milliseconds" : 27.503583,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -2160,7 +2160,7 @@
     },
     {
       "id" : "account-09",
-      "milliseconds" : 32.563959,
+      "milliseconds" : 27.81575,
       "prediction" : {
         "department" : "technical",
         "refund" : false,
@@ -2169,7 +2169,7 @@
     },
     {
       "id" : "account-10",
-      "milliseconds" : 31.832083,
+      "milliseconds" : 27.646041,
       "prediction" : {
         "department" : "account",
         "refund" : false,
@@ -2178,7 +2178,7 @@
     },
     {
       "id" : "shipping-01",
-      "milliseconds" : 32.707958,
+      "milliseconds" : 28.445083,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -2187,7 +2187,7 @@
     },
     {
       "id" : "shipping-02",
-      "milliseconds" : 33.321042,
+      "milliseconds" : 28.790791,
       "prediction" : {
         "department" : "shipping",
         "refund" : true,
@@ -2196,7 +2196,7 @@
     },
     {
       "id" : "shipping-03",
-      "milliseconds" : 33.385959,
+      "milliseconds" : 28.02825,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -2205,7 +2205,7 @@
     },
     {
       "id" : "shipping-04",
-      "milliseconds" : 32.8835,
+      "milliseconds" : 27.971709,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -2214,7 +2214,7 @@
     },
     {
       "id" : "shipping-05",
-      "milliseconds" : 34.84575,
+      "milliseconds" : 28.002875,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -2223,7 +2223,7 @@
     },
     {
       "id" : "shipping-06",
-      "milliseconds" : 32.937166,
+      "milliseconds" : 28.719584,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -2232,7 +2232,7 @@
     },
     {
       "id" : "shipping-07",
-      "milliseconds" : 32.940959,
+      "milliseconds" : 28.145125,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -2241,7 +2241,7 @@
     },
     {
       "id" : "shipping-08",
-      "milliseconds" : 33.207584,
+      "milliseconds" : 27.995417,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -2250,7 +2250,7 @@
     },
     {
       "id" : "shipping-09",
-      "milliseconds" : 32.493667,
+      "milliseconds" : 28.025708,
       "prediction" : {
         "department" : "billing",
         "refund" : true,
@@ -2259,7 +2259,7 @@
     },
     {
       "id" : "shipping-10",
-      "milliseconds" : 32.490875,
+      "milliseconds" : 27.383167,
       "prediction" : {
         "department" : "shipping",
         "refund" : false,
@@ -2271,5 +2271,5 @@
   "stableRepeats" : 200,
   "totalQuestions" : 150,
   "totalRepeats" : 200,
-  "warmupMilliseconds" : 55.790458
+  "warmupMilliseconds" : 49.757416
 }
