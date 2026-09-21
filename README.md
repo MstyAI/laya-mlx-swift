@@ -65,6 +65,12 @@ Laya supports three question types:
 | `boolean` | Checking whether a statement holds | Probability from 0 to 1 |
 | `score` | Rating against an ordered scale | Weighted score and probabilities |
 
+## Performance
+
+On an M3 Max, one request with three decisions takes **32.4 ms p50** and **33.4 ms p95**. The same benchmark takes 27.1 ms with Python MLX and 397 ms with our ONNX port. Accuracy matches both Laya ports exactly.
+
+[See the benchmark method and raw results](BENCHMARKS.md).
+
 ## Requirements
 
 - Apple silicon Mac
@@ -106,7 +112,7 @@ xcodebuild \
   test
 ```
 
-Set `LAYA_MODEL_PATH` to run checkpoint parity tests when using a test runner that passes environment variables through.
+Checkpoint tests use the prepared default model or the standard Hugging Face cache location.
 
 </details>
 

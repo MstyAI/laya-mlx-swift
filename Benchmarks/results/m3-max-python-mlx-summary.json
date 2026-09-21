@@ -1,0 +1,21 @@
+{
+  "cases": 50,
+  "correctQuestions": 111,
+  "exactCaseAccuracy": 0.36,
+  "exactCases": 18,
+  "latencyMeanMilliseconds": 27.2463800101541,
+  "latencyP50Milliseconds": 27.083834051154554,
+  "latencyP95Milliseconds": 27.864665957167745,
+  "machine": "Apple M3 Max, 16-core CPU, 40-core GPU, 128 GB memory",
+  "measuredRuns": 5,
+  "modelLoadMilliseconds": 179.01070800144225,
+  "modelRevision": "20aed815fc6acde75733882e7ec0e3f28aeb9717",
+  "platform": "macOS/arm64",
+  "questionAccuracy": 0.74,
+  "questionsPerCase": 3,
+  "repeatStability": 1.0,
+  "stableRepeats": 200,
+  "totalQuestions": 150,
+  "totalRepeats": 200,
+  "warmupMilliseconds": 57.016334030777216
+}
